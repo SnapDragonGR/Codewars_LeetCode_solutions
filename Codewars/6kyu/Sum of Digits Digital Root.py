@@ -17,13 +17,9 @@ Examples
 
 def digital_root(n):
     string = str(n)
-    digits = ""
-    m_digits = ""
-    for digit in string:
-        digits += digit
 
     if len(string) <= 2:
-        return sum(int(digit) for digit in digits)
+        return sum(int(digit) for digit in string)
     else:
         sum_digits = sum(int(digit) for digit in string)
 
