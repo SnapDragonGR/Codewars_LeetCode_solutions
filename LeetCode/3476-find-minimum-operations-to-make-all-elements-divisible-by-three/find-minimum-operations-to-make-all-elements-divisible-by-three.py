@@ -8,9 +8,6 @@ class Solution:
         
             if remainder != 0:
                 op_count += 1
-            
-                if remainder == 2:
-                    op_count += 0
                 
         return op_count
         
